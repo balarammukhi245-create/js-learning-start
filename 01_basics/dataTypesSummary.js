@@ -30,3 +30,30 @@ const myFunction = function(){
 }
 
 console.log(typeof heros)
+ //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ // Stack (primitive), Heap (None-Primitive)
+
+ let myName = "Balaram"
+ let reName = myName
+ reName= 'Mr.Balaram'
+ 
+ console.log(myName)
+ console.log(reName)
+
+ //it is Stack memory which is only given a copy not an referance so it will change as per you change 
+
+ let userOne = {
+    name:"Balaram",
+    email:"balaram@gmail.com"
+ }
+
+ let userTwo = userOne
+ userTwo.email = "odisha@gmail.com"
+
+ console.log(userOne.email)
+ console.log(userTwo.email)
+
+ //In heap it take referance not copy so it is change with the original data 
+
+ // stack is (Primitive ) and Heap (Non-Primitive) are memory type
